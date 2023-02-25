@@ -7,6 +7,7 @@ import Category from './pages/Category';
 import PostDetail from './pages/PostDetail';
 import UserDetail from './pages/UserDetail';
 import { fetchCategories } from './utils/api';
+import './App.css';
 
 function App() {
   const [categories, setCategories] = useState([]);

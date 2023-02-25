@@ -19,12 +19,12 @@ function PostDetail() {
   }, [postId]);
 
   return (
-    <div className="col-md-8">
+    <div className="col-md-8" style={{display: 'inline-block', backgroundColor: 'lightblue', width: '60%', float: 'right', marginTop: '2rem', padding: '2rem', marginRight: '1.4rem', marginBottom: '2rem'}}>
       {post ? (
         <>
           <h1>{post.title}</h1>
           <p>{post.content}</p>
-          <h2>Comments</h2>
+          <h3 style={{marginTop: '5rem'}}>Comments</h3>
           {comments.map((comment) => (
             <Comment key={comment.id} comment={comment} />
           ))}

@@ -15,7 +15,7 @@ function Category() {
   }, [categoryId]);
 
   return (
-    <div className="col-md-8">
+    <div className="col-md-8" style={{display: 'inline-block', backgroundColor: 'lightblue', width: '60%', float: 'right', marginTop: '2rem', padding: '2rem', marginRight: '1.4rem', marginBottom: '2rem'}}>
       {posts.length > 0  && posts[0] !== undefined ? (
         <>
           <h1>Posts in Category "{categoryId}"</h1>

@@ -13,7 +13,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="col-md-8">
+    <div className="col-md-8" style={{display: 'inline-block', backgroundColor: 'lightblue', width: '60%', float: 'right', marginTop: '2rem', padding: '2rem', marginRight: '1.4rem', marginBottom: '2rem'}}>
       <h1>Latest Posts</h1>
       {posts.map((post) => (
         <Post key={post.id} post={post} />
