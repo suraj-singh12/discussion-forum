@@ -8,7 +8,7 @@ function Post({ post }) {
         <h2 className="card-title"><Link to={`/post/${post.id}`}>{post.title}</Link>
         </h2>
         <p className="card-text">{post.content}</p>
-        <Link to={`/user/${post.user_id}`} className="card-link">View User</Link>
+        <Link to={`/user/${post.id}`} className="card-link">View User</Link>
       </div>
     </div>
   );

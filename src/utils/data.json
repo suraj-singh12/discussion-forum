@@ -16,15 +16,15 @@
     "posts": [
       {
         "id": 1,
-        "title": "My First Post",
-        "content": "This is my first post on this forum!",
+        "title": "Trending React",
+        "content": "React is a trending tech, I am here to share all brand new react tricks",
         "author_id": 1,
         "created_at": "2022-02-01T12:34:56Z"
       },
       {
         "id": 2,
-        "title": "My Second Post",
-        "content": "This is my second post on this forum!",
+        "title": "The Astronomical Time Delay",
+        "content": "The Shapiro time delay effect, or gravitational time delay effect, is one of the four classic solar-system tests of general relativity. Radar signals passing near a massive object take slightly longer to travel to a target and longer to return than they would if the mass of the object were not present. The time delay is caused by spacetime dilation, which increases the time it takes light to travel a given distance from the perspective of an outside observer.",
         "author_id": 2,
         "created_at": "2022-02-02T12:34:56Z"
       }

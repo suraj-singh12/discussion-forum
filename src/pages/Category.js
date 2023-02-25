@@ -10,12 +10,13 @@ function Category() {
   useEffect(() => {
     fetchPostsByCategory(categoryId).then((data) => {
       setPosts(data);
+      console.log(data);
     });
   }, [categoryId]);
 
   return (
     <div className="col-md-8">
-      {posts.length > 0 ? (
+      {posts.length > 0  && posts[0] !== undefined ? (
         <>
           <h1>Posts in Category "{categoryId}"</h1>
           {posts.map((post) => (

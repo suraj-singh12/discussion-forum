@@ -6,7 +6,7 @@ import { fetchPostsByUser } from '../utils/api';
 function UserDetail() {
   const { userId } = useParams();
   const [posts, setPosts] = useState([]);
-
+//   console.log(userId)
   useEffect(() => {
     fetchPostsByUser(userId).then((data) => {
       setPosts(data);

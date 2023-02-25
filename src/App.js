@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
@@ -14,6 +14,7 @@ function App() {
   useEffect(() => {
     fetchCategories().then((data) => {
       setCategories(data);
+      // console.log(data)
     });
   }, []);
 
@@ -24,12 +25,12 @@ function App() {
         <div className="container">
           <div className="row">
             <Sidebar categories={categories} />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/category/:categoryId" component={Category} />
-              <Route path="/post/:postId" component={PostDetail} />
-              <Route path="/user/:userId" component={UserDetail} />
-            </Switch>
+            <Routes>
+              <Route exact path="/" element={<Home/>} />
+              <Route path="/category/:categoryId" element={<Category/>} />
+              <Route path="/post/:postId" element={<PostDetail/>} />
+              <Route path="/user/:userId" element={<UserDetail/>} />
+            </Routes>
           </div>
         </div>
       </div>

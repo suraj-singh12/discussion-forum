@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Comment from '../components/Comment';
-import { fetchPostById } from '../utils/api';
+import { fetchCommentsByPostId, fetchPostById } from '../utils/api';
 
 function PostDetail() {
   const { postId } = useParams();
@@ -11,7 +11,10 @@ function PostDetail() {
   useEffect(() => {
     fetchPostById(postId).then((data) => {
       setPost(data);
-      setComments(data.comments);
+    });
+    fetchCommentsByPostId(postId).then((data) => {
+    setComments(data);
+    console.log('comments data:', data)
     });
   }, [postId]);
 

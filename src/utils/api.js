@@ -36,13 +36,16 @@ export const fetchPosts = async () => {
 export const fetchPostById = async (postId) => {
   // Simulate an asynchronous request with a delay
   await new Promise((resolve) => setTimeout(resolve, 1000));
-  return data.posts.find((post) => post.id === postId);
+  return data.posts.find((post) => post.id === parseInt(postId));
 };
 
 export const fetchCommentsByPostId = async (postId) => {
   // Simulate an asynchronous request with a delay
   await new Promise((resolve) => setTimeout(resolve, 1000));
-  return data.comments.filter((comment) => comment.post_id === postId);
+  let p = data.comments.filter((comment) => comment.id === parseInt(postId));
+  console.log('commentData: ', p)
+//   return null;
+  return p;
 };
 
 export const fetchUserById = async (userId) => {
@@ -50,3 +53,21 @@ export const fetchUserById = async (userId) => {
   await new Promise((resolve) => setTimeout(resolve, 1000));
   return data.users.find((user) => user.id === userId);
 };
+
+let categories = [{id: 1, name:'Study'}, {id: 2, name:'Science'}, {id: 3, name:'Fiction'}, {id: 4, name:'Technology'}]
+export const fetchCategories = async () => {
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    return categories;
+}
+
+export const fetchPostsByCategory = async (categoryId) => {
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    return [data.posts.find((post) => post.id === parseInt(categoryId))];
+    //  change the above logic after making changes in data for category!
+}
+
+export const fetchPostsByUser = async (userId) => {
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    // return [data.posts[0]];
+    return [data.posts.find((post) => post.id === parseInt(userId))];
+}
