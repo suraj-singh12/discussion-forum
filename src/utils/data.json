@@ -18,6 +18,15 @@
         "id": 1,
         "title": "Trending React",
         "content": "React is a trending tech, I am here to share all brand new react tricks",
+        "displayContent" : [
+            {"React":"React is a popular JavaScript library for building user interfaces. It was developed by Facebook and has gained a lot of popularity in recent years due to its performance, flexibility, and ease of use. React has been trending for quite some time, and here are some of the latest trends in React development."},
+            {"Serverless computing":"React developers are increasingly using serverless computing models such as AWS Lambda and Google Cloud Functions. Serverless computing allows developers to run code without worrying about the underlying infrastructure. This makes it easier to scale applications and reduce operational costs."},
+            {"Progressive web apps":"Progressive web apps (PWAs) are web applications that function like native apps. They are fast, reliable, and work offline. React is an excellent framework for building PWAs because it allows developers to create dynamic and interactive web applications with a smooth user experience."}, 
+            {"GraphQL": "GraphQL is a query language for APIs that allows developers to describe the data requirements of their applications. React developers are increasingly using GraphQL because it allows for efficient data fetching, reduces over-fetching and under-fetching of data, and makes it easier to build scalable and maintainable applications."},
+            {"React Native":"React Native is a framework for building mobile apps using React. It allows developers to build high-performance native apps for iOS and Android using a single codebase. React Native has gained a lot of popularity in recent years because it makes it easier and faster to build mobile apps."},
+            {"TypeScript": "TypeScript is a superset of JavaScript that adds static typing and other features to the language. React developers are increasingly using TypeScript because it makes it easier to catch errors early in the development process, improves code readability and maintainability, and enables better collaboration between team members."},
+            {"Conclusion" :"In conclusion, React continues to be a trending technology in the world of web development. Its popularity is due to its flexibility, performance, and ease of use. The latest trends in React development include serverless computing, progressive web apps, GraphQL, React Native, and TypeScript. These trends are likely to continue as developers look for ways to build more efficient, scalable, and maintainable applications."} 
+        ],
         "author_id": 1,
         "created_at": "2022-02-01T12:34:56Z"
       },
@@ -25,8 +34,132 @@
         "id": 2,
         "title": "The Astronomical Time Delay",
         "content": "The Shapiro time delay effect, or gravitational time delay effect, is one of the four classic solar-system tests of general relativity. Radar signals passing near a massive object take slightly longer to travel to a target and longer to return than they would if the mass of the object were not present. The time delay is caused by spacetime dilation, which increases the time it takes light to travel a given distance from the perspective of an outside observer.",
+        "displayContent" : [
+            {"Astronomical time delay": "It refers to the phenomenon where light from a distant object takes time to reach us on Earth, resulting in a delay in our observations of that object. This delay can be significant, especially for objects that are located billions of light-years away, and has important implications for our understanding of the universe. The speed of light is approximately 300,000 kilometers per second, which means that light from an object located 1 light-year away takes 1 year to reach us on Earth. For objects located further away, the time delay increases proportionally to the distance."},
+            {"First": "This time delay has a number of important effects. Firstly, it means that we are seeing objects as they were in the past. For example, if we observe a galaxy located 10 billion light-years away, we are actually seeing the galaxy as it appeared 10 billion years ago, when the light we are observing was emitted. This allows astronomers to study the history of the universe and to understand how galaxies and other objects have evolved over time."}, 
+            {"Second": "The time delay can be used to measure the distance to distant objects. By observing the time delay between different observations of an object, astronomers can calculate the distance to that object. This technique has been used to measure the distances to galaxies and other objects in the universe and has allowed astronomers to create detailed maps of the distribution of matter in the universe."},
+            {"Finally": "The time delay can be used to study the structure of the universe itself. The time delay caused by the presence of massive objects such as galaxies and clusters of galaxies can be used to study their gravitational effects on the light passing through them. This has allowed astronomers to study the distribution of dark matter in the universe and to test theories of gravity and cosmology. In conclusion, astronomical time delay is a fundamental aspect of our observations of the universe. It has important implications for our understanding of the history and structure of the universe and has enabled astronomers to make a wide range of discoveries and measurements."}
+        ],
         "author_id": 2,
         "created_at": "2022-02-02T12:34:56Z"
+      },
+      {
+        "id": 1,
+        "title": "The Benefits of Study Groups",
+        "content": "Studying with a group can help you stay motivated and learn more effectively.",
+        "displayContent": [
+            {"": "Study groups are a popular way for students to work together on academic projects, assignments, and exams. Study groups consist of a small group of students who work together to achieve academic success. Here are some benefits of study groups:"},
+            {"Sharing knowledge" : "One of the main benefits of study groups is the opportunity to share knowledge. Each student brings a unique perspective and knowledge to the group, and by working together, they can share their knowledge and learn from one another."},
+            {"Better understanding":"Working in a study group allows students to better understand complex concepts. Students can ask each other questions, clarify ideas, and discuss difficult concepts in a way that is not possible when studying alone. This can lead to a better understanding of the material."},
+            {"Increased motivation": "Studying in a group can increase motivation. When students study alone, they may lose motivation or become easily distracted. However, in a group, students can motivate each other to stay focused and work hard. This can lead to increased productivity and better results."},
+            {"Improved time management" : "Studying in a group can improve time management. By setting study goals and deadlines, students can hold each other accountable and ensure that they are making progress towards their academic goals. This can help students to manage their time more effectively and to avoid procrastination."},
+            {"Improved social skills":"Working in a group can improve social skills. Students can learn to work collaboratively, communicate effectively, and respect each other's opinions. This can help students to develop important interpersonal skills that will be valuable throughout their lives."},
+            {"Reduced Stress" : "Studying in a group can help to reduce stress. When students work together, they can share the workload and support each other during difficult times. This can help to reduce stress and anxiety and to create a more positive learning environment."}
+        ],
+        "author_id": 1,
+        "created_at": "2023-02-23T10:00:00Z",
+        "category": "Study"
+      },
+      {
+        "id": 2,
+        "title": "The Science of Sleep",
+        "content": "Sleep is an essential part of our lives, and scientists are constantly learning more about how it affects our health and well-being.",
+        "displayContent" : [
+            {"": "Sleep is a vital biological function that is essential for our physical, mental, and emotional well-being. Scientists have been studying sleep for decades, and there is still much to learn about this complex and fascinating topic. Here are some key areas of research in the science of sleep:"},
+            {"The Sleep Cycle":"The sleep cycle is divided into two main stages: rapid eye movement (REM) sleep and non-REM (NREM) sleep. During NREM sleep, our body goes through several stages of sleep, each with its own characteristic brainwave patterns. REM sleep is characterized by rapid eye movements and vivid dreams."},
+            {"Sleep Architecture":"Sleep architecture refers to the structure of the sleep cycle. Scientists have identified five different stages of sleep, which are characterized by different brainwave patterns, eye movements, and muscle activity."},
+            {"Sleep Regulation":"Sleep is regulated by a complex interplay of physiological and psychological factors, including hormones, neurotransmitters, and environmental cues. The hormone melatonin plays a key role in regulating the sleep-wake cycle."},
+            {"Sleep Disorder": "Sleep disorders are common and can have a significant impact on a person's quality of life. Some common sleep disorders include insomnia, sleep apnea, restless leg syndrome, and narcolepsy."},
+            {"The functions of sleep":"Scientists are still working to fully understand the functions of sleep. However, it is clear that sleep plays an important role in memory consolidation, cognitive function, emotional regulation, and physical health."},
+            {"The impact of sleep deprivation":"Sleep deprivation can have a wide range of negative effects on our physical and mental health, including impaired cognitive function, reduced immune function, increased risk of accidents, and increased risk of chronic diseases such as diabetes, heart disease, and obesity."},
+            {"":"In conclusion, the science of sleep is a fascinating and important area of research. Scientists are still working to fully understand the many complex processes that occur during sleep, as well as the impact of sleep on our physical, mental, and emotional health. By continuing to study sleep, we can develop new treatments for sleep disorders, improve our understanding of the functions of sleep, and promote better sleep habits for people around the world."}
+        ],
+        "author_id": 2,
+        "created_at": "2023-02-22T14:30:00Z",
+        "category": "Science"
+      },
+      {
+        "id": 3,
+        "title": "Exploring a Fictional Universe",
+        "content": "The world-building in science fiction and fantasy novels can be incredibly detailed and immersive, allowing readers to escape into another world.",
+        "displayContent": [
+            {"":"Exploring a fictional universe can be a fascinating and immersive experience for readers, viewers, gamers, and fans. It involves delving into a complex and elaborate world that is created by the author, director, game designer, or creator, with its own rules, lore, history, geography, cultures, and characters."},
+            {"Follow the Canon":"The canon refers to the official and authoritative version of the fictional universe, as established by the creator. It is important to follow the canon and avoid fan fiction or non-canonical sources that may deviate from the original vision."},
+            {"Use Reference Materials":"Many fictional universes have companion books, encyclopedias, maps, and websites that provide additional information and details about the world. Use these resources to enhance your understanding and appreciation of the universe."},
+            {"Engage with the fandom":"The fandom refers to the community of fans who are passionate about the fictional universe. Engage with the fandom by joining online forums, attending conventions, and participating in discussions. This will give you a chance to share your thoughts, learn from others, and connect with like-minded fans."},
+            {"Explore":"Explore the world beyond the main story: Many fictional universes have a rich and complex history, geography, and culture that are not fully explored in the main story. Look for clues, hints, and Easter eggs that suggest a deeper lore and world-building."},
+            {"Use Your Imagination":"The beauty of exploring a fictional universe is that it allows you to use your imagination and creativity. Imagine yourself as a character in the world, or think about how you would react to the challenges and conflicts faced by the characters. This will deepen your appreciation and enjoyment of the universe."},
+            {"In Total":"In conclusion, exploring a fictional universe can be a rewarding and enriching experience for fans. By following the canon, using reference materials, engaging with the fandom, exploring beyond the main story, and using your imagination, you can deepen your understanding and appreciation of the world and its characters."}
+        ],
+        "author_id": 1,
+        "created_at": "2023-02-21T16:45:00Z",
+        "category": "Fiction"
+      },
+      {
+        "id": 4,
+        "title": "The Latest Advances in Technology",
+        "content": "From AI to blockchain, technology is constantly evolving and changing the way we live and work.",
+        "displayContent": [
+            {"":"The latest advances in technology are transforming the way we live, work, and interact with the world around us. From artificial intelligence and quantum computing to robotics and biotechnology, here are some of the latest technological breakthroughs:"},
+            {"Artificial Intelligence":"AI is advancing rapidly and is being used in various fields such as healthcare, finance, and transportation. AI is capable of learning from data, recognizing patterns, and making predictions, and is being used to automate processes, improve decision-making, and develop new products and services."},
+            {"Quantum Computing":"Quantum computing is a revolutionary technology that uses quantum bits (qubits) to perform computations. It has the potential to solve complex problems that are beyond the capabilities of classical computers, such as simulating complex chemical reactions, optimizing supply chains, and breaking encryption."},
+            {"Robotics":"Robotics is advancing rapidly and is being used in various industries, such as manufacturing, healthcare, and agriculture. Robots are becoming more intelligent, agile, and versatile, and are being used to perform tasks that are dangerous, repetitive, or require precision."},
+            {"BioTechnology":"Biotechnology is revolutionizing the field of medicine and is being used to develop new treatments and cures for diseases. It involves using living organisms or parts of them to produce drugs, vaccines, and other medical products."},
+            {"Augmented and Virtual Reality (AR/VR)":"AR and VR are being used to create immersive and interactive experiences for users. AR overlays digital information on the real world, while VR creates a completely artificial environment. They are being used in various industries, such as entertainment, education, and healthcare."},
+            {"5G":"5G is the latest generation of wireless technology and promises faster speeds, lower latency, and higher bandwidth. It is being used to enable new applications and services, such as autonomous vehicles, smart cities, and remote surgery."},
+            {"BlockChain":"Blockchain is a distributed ledger technology that is being used to create secure and transparent systems for transactions and data storage. It is being used in various industries, such as finance, supply chain, and healthcare."},
+            {"Conclusion":"In conclusion, the latest advances in technology are transforming the way we live, work, and interact with the world around us. AI, quantum computing, robotics, biotechnology, AR/VR, 5G, and blockchain are just a few examples of the breakthrough technologies that are shaping the future. As these technologies continue to evolve, they have the potential to bring about positive change and create new opportunities for innovation and growth."}
+        ],
+        "author_id": 2,
+        "created_at": "2023-02-20T09:15:00Z",
+        "category": "Technology"
+      },
+      {
+        "id": 5,
+        "title": "Coding Best Practices",
+        "content": "Following best practices when coding can help you write more efficient and maintainable code.",
+        "displayContent": [
+            {"":"Coding best practices refer to a set of guidelines, principles, and methods that software developers should follow to write high-quality, efficient, and maintainable code. Here are some important coding best practices:"},
+            {"Writing Clean Code":"Clean code is easy to read, understand, and maintain. Use clear and descriptive variable and function names, and avoid redundant code and unnecessary comments."},
+            {"Following Coding Standard": "Adopt a consistent coding style and adhere to the coding standards set by your team or organization. This will make it easier for other developers to understand and work with your code."},
+            {"Writing Modular Code":"Break your code into small, independent modules that can be easily tested and reused. This will make your code more scalable and easier to maintain."},
+            {"Writing Efficient Code":"Optimize your code for performance by minimizing computational overhead, reducing memory usage, and avoiding unnecessary resource allocation."},
+            {"Use version control":"Use version control software like Git to keep track of changes to your code and collaborate with other developers. This will help you to avoid conflicts and ensure that your code is always up to date."}
+        ],
+        "author_id": 1,
+        "created_at": "2023-02-19T12:00:00Z",
+        "category": "Coding"
+      },
+      {
+        "id": 6,
+        "title": "Understanding Low-Level Design",
+        "content": "Low-level design (LLD) is a crucial part of software development that involves designing the detailed architecture of a system or component.",
+        "displayContent": [
+            {"LLD": "LLD stands for Low-Level Design, which is a crucial step in software development. It involves the detailed design of individual software components or modules, focusing on the technical specifications and implementation details. LLD is typically performed after the high-level design phase, where the system architecture and overall design are defined."},
+            {"The Purpose": "The purpose of LLD is to provide a detailed blueprint of the software components, including their functionality, data structures, algorithms, interfaces, and dependencies. This helps developers to understand the technical details of the system and implement the software components effectively."},
+            {"Conclusion": "LLD is an important step in software development that enables developers to design the software components in detail, focusing on the technical specifications and implementation details. By following a structured LLD process, developers can ensure that the software components are designed effectively, implemented correctly, and meet the system requirements."}
+        ],
+        "author_id": 2,
+        "created_at": "2023-02-18T17:30:00Z",
+        "category": "LLD"
+      },
+      {
+        "id": 7,
+        "title": "The Development Process",
+        "content": "Developing software is a complex process that involves many stages, from planning and design to testing and deployment.",
+        "displayContent": [
+            {"":"The development process is a systematic approach to creating software that involves several stages from ideation to deployment. It typically includes the following stages:"},
+            {"Planning":"In this stage, the software development team works with the stakeholders to understand the project's objectives, requirements, timelines, and budget. They also define the project scope, identify potential risks and challenges, and create a development plan."},
+            {"Analysis":"In this stage, the team performs a detailed analysis of the project requirements and designs the software architecture, data models, user interfaces, and workflows. They also create a detailed project specification document that serves as a blueprint for the development process."},
+            {"Design":"In this stage, the team uses the project specification document to create a high-level design of the software, including the system architecture, modules, interfaces, and data structures. They also create a detailed design document that serves as a reference for the development team."},
+            {"Implementation":"In this stage, the team uses the design documents to write the code and develop the software components. They also perform unit testing to ensure that the software components are working correctly."},
+            {"Testing": "In this stage, the team performs various types of testing, including unit testing, integration testing, system testing, and acceptance testing. They also perform performance testing and security testing to ensure that the software meets the quality standards and is ready for deployment."},
+            {"Deployment":"In this stage, the team deploys the software to the production environment and makes it available to the end-users. They also provide training and support to the users and monitor the software's performance and user feedback."},
+            {"":"The development process is an iterative and continuous process that involves multiple cycles of planning, analysis, design, implementation, testing, deployment, and maintenance. By following a structured development process, the software development team can ensure that the software meets the project requirements, is of high quality, and meets the needs of the end-users."}
+        ],
+        "author_id": 1,
+        "created_at": "2023-02-17T11:45:00Z",
+        "category": "Development"
       }
     ],
     "comments": [

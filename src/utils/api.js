@@ -54,7 +54,17 @@ export const fetchUserById = async (userId) => {
   return data.users.find((user) => user.id === userId);
 };
 
-let categories = [{id: 1, name:'Study'}, {id: 2, name:'Science'}, {id: 3, name:'Fiction'}, {id: 4, name:'Technology'}]
+let categories = [
+    {id: 1, name:'Study'}, 
+    {id: 2, name:'Science'}, 
+    {id: 3, name:'Fiction'}, 
+    {id: 4, name:'Technology'},
+    {id: 5, name:'Coding'},
+    {id: 6, name:'LLD'},
+    {id: 7, name:'Development'}
+]
+
+
 export const fetchCategories = async () => {
     await new Promise((resolve) => setTimeout(resolve, 1000));
     return categories;
