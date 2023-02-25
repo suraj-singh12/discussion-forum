@@ -1,8 +1,23 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 a:link {
   color: #551a8b;
 }
 a:visited {
   color: #551a8b;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+ul {
+  font-family: 'Playfair Display', serif;
 }

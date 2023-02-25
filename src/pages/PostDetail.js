@@ -23,7 +23,14 @@ function PostDetail() {
       {post ? (
         <>
           <h1>{post.title}</h1>
-          <p>{post.content}</p>
+          {/* <p>{post.content}</p> */}
+          {post.displayContent.map((content) => {
+            console.log(content)
+            return <div>
+              <h3>{content[0]}</h3>
+              <p>{content[1]}</p>
+            </div>
+          })}
           <h3 style={{marginTop: '5rem'}}>Comments</h3>
           {comments.map((comment) => (
             <Comment key={comment.id} comment={comment} />
